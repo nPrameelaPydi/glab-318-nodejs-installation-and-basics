@@ -1,0 +1,36 @@
+
+//In Node.js, the -p option is used to evaluate an expression and print the result to the console. 
+
+//The --eval or -e flag tells Node to evaluate the following string as a JavaScript expression. The --print or -p flag behaves similarly, but automatically prints the result if possible.
+
+//One of the useful functions of the package file is the ability to assign alias commands to specific tasks.
+//If a host platform uses the “npm start” command to run a program, it does not need to know what the name of your main file is. This means that we could change “index.js” to “application.js” if we wanted to, and it would not break anything.
+//These alias commands are also used for a variety of other purposes such as testing, debugging, development mode, deployment, etc.
+
+
+//npm i --save-dev nodemon -The --save-dev flag tells npm that this is a development dependency, and does not need to be included in the production application.
+
+//Installing and putting a package to use with npm is that simple!
+//The convenience of npm for package management and installation cannot be understated; it is one of the most important tools for Node developers. In addition to nodemon, there are many other popular packages available on npm. 
+
+Below is a list of some of the most popular npm packages.
+--------------------------------------------------------------
+Express - Fast, unopinionated, minimalist web framework for Node.js.
+Async - Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript. Although originaslly designed for use with Node.js and installable via npm i async, it can also be used directly in the browser.
+Lodash - Lodash makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc.
+Axios - Promise based HTTP client for the browser and node.js
+Karma - A simple tool that allows you to execute JavaScript code in multiple real browsers. The main purpose of Karma is to make your test-driven development easy, fast, and fun.
+Mocha - Simple, flexible, fun JavaScript test framework for Node.js & The Browser
+Moment - A JavaScript date library for parsing, validating, manipulating, and formatting dates.
+Babel - Babel is a JavaScript compiler.
+Socket.io - Socket.IO enables real-time bidirectional event-based communication.
+Mongoose - Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. 
+React - React is a JavaScript library for creating user interfaces.
+The react package contains only the functionality necessary to define React components. It is typically used together with a React renderer like react-dom for the web, or react-native for the native environments.
+Redux - Redux is a predictable state container for JavaScript apps.
+Jest - Delightful JavaScript Testing.
+GraphQL - The JavaScript reference implementation for GraphQL, a query language for APIs created by Facebook.
+Nodemailer - Send emails from Node.js – easy as cake! 
+dotenv - Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.
+Passport - Passport is Express-compatible authentication middleware for Node.js.
+...and literally millions more!
